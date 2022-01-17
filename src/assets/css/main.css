@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.in{
+    display: inline-block;
+}
+
+@keyframes bounceIn1 {
+    0%{
+        transform: scale3d(0, 0, 0);
+    }
+    100%{
+        transform: scale3d(1, 1, 1);
+    }
+}
